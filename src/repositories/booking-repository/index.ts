@@ -6,5 +6,20 @@ async function findBookingByUserId(userId: number) {
         include: { Room: true }
     })
 }
+async function createBooking(userId: number, roomId: number){
+    return prisma.booking.create({
+        data:{
+            roomId,
+            userId
+        }
+    })
+}
 
-export default {findBookingByUserId}
+async function findRoomById(roomId: number){
+    return prisma.room.findFirst({
+        where:{
+            id: roomId
+        }
+    })
+}
+export default {findBookingByUserId, createBooking, findRoomById}
