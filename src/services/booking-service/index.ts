@@ -48,8 +48,7 @@ async function checkRoom(roomId: number){
 async function createBooking(userId: number, roomId: number) {
    await checkEnrollmentAndTicket(userId);
    await checkRoom(roomId);
-   
-   //criar 
+    
    const booking = await bookingRepository.createBooking(userId, roomId)
    return booking.id
 }
@@ -59,11 +58,7 @@ async function updateBooking(userId: number, roomId: number, bookingId: number){
    if(!booking){
       throw notFoundError()
    }
-   if(booking.userId !== userId){
-      throw conflictError("user not match with booking")
-   }
    await checkRoom(roomId)
-
    const updated = await bookingRepository.updateBooking(roomId, bookingId)
   
    return updated.id

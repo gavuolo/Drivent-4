@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682998116858" clover="3.2.0">
-  <project timestamp="1682998116858" name="All files">
-    <metrics statements="643" coveredstatements="628" conditionals="102" coveredconditionals="83" methods="112" coveredmethods="107" elements="857" coveredelements="818" complexity="0" loc="643" ncloc="643" packages="27" files="72" classes="72"/>
+<coverage generated="1683045589694" clover="3.2.0">
+  <project timestamp="1683045589695" name="All files">
+    <metrics statements="588" coveredstatements="564" conditionals="88" coveredconditionals="67" methods="100" coveredmethods="93" elements="776" coveredelements="724" complexity="0" loc="588" ncloc="588" packages="26" files="64" classes="64"/>
     <package name="src">
-      <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-      <file name="app.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/app.ts">
+      <metrics statements="22" coveredstatements="16" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="2"/>
+      <file name="app.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/app.ts">
         <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -24,10 +24,18 @@
         <line num="43" count="0" type="stmt"/>
         <line num="46" count="11" type="stmt"/>
       </file>
+      <file name="server.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/server.ts">
+        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
     </package>
     <package name="src.config">
       <metrics statements="13" coveredstatements="12" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2"/>
-      <file name="database.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/config/database.ts">
+      <file name="database.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/config/database.ts">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="14" type="stmt"/>
         <line num="4" count="14" type="stmt"/>
@@ -35,7 +43,7 @@
         <line num="8" count="14" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
       </file>
-      <file name="envs.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/config/envs.ts">
+      <file name="envs.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/config/envs.ts">
         <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="14" type="stmt"/>
         <line num="2" count="14" type="stmt"/>
@@ -44,15 +52,15 @@
         <line num="12" count="25" type="stmt"/>
         <line num="13" count="25" type="stmt"/>
       </file>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/config/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/config/index.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="14" type="stmt"/>
         <line num="2" count="14" type="stmt"/>
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="125" coveredstatements="123" conditionals="10" coveredconditionals="8" methods="15" coveredmethods="15"/>
-      <file name="authentication-controller.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/controllers/authentication-controller.ts">
+      <metrics statements="133" coveredstatements="131" conditionals="10" coveredconditionals="8" methods="16" coveredmethods="16"/>
+      <file name="authentication-controller.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/controllers/authentication-controller.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -63,8 +71,8 @@
         <line num="11" count="3" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
       </file>
-      <file name="booking-controller.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/controllers/booking-controller.ts">
-        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="booking-controller.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/controllers/booking-controller.ts">
+        <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
@@ -80,8 +88,16 @@
         <line num="20" count="6" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
         <line num="23" count="5" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
       </file>
-      <file name="enrollments-controller.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/controllers/enrollments-controller.ts">
+      <file name="enrollments-controller.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/controllers/enrollments-controller.ts">
         <metrics statements="20" coveredstatements="19" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -104,7 +120,7 @@
         <line num="38" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="39" count="1" type="stmt"/>
       </file>
-      <file name="events-controller.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/controllers/events-controller.ts">
+      <file name="events-controller.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/controllers/events-controller.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -114,7 +130,7 @@
         <line num="8" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
       </file>
-      <file name="hotel-controller.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/controllers/hotel-controller.ts">
+      <file name="hotel-controller.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/controllers/hotel-controller.ts">
         <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -132,7 +148,7 @@
         <line num="24" count="1" type="stmt"/>
         <line num="26" count="4" type="stmt"/>
       </file>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/controllers/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/controllers/index.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -141,7 +157,7 @@
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
       </file>
-      <file name="payments-controller.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/controllers/payments-controller.ts">
+      <file name="payments-controller.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/controllers/payments-controller.ts">
         <metrics statements="24" coveredstatements="24" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -168,7 +184,7 @@
         <line num="38" count="1" type="stmt"/>
         <line num="40" count="1" type="stmt"/>
       </file>
-      <file name="tickets-controller.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/controllers/tickets-controller.ts">
+      <file name="tickets-controller.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/controllers/tickets-controller.ts">
         <metrics statements="20" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -191,7 +207,7 @@
         <line num="33" count="2" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
       </file>
-      <file name="users-controller.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/controllers/users-controller.ts">
+      <file name="users-controller.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/controllers/users-controller.ts">
         <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -207,27 +223,27 @@
     </package>
     <package name="src.errors">
       <metrics statements="26" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="7"/>
-      <file name="cannot-enroll-before-start-date-error.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/errors/cannot-enroll-before-start-date-error.ts">
+      <file name="cannot-enroll-before-start-date-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/cannot-enroll-before-start-date-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
       </file>
-      <file name="cannot-list-hotels-error.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/errors/cannot-list-hotels-error.ts">
+      <file name="cannot-list-hotels-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/cannot-list-hotels-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
       </file>
-      <file name="conflict-error.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/errors/conflict-error.ts">
+      <file name="conflict-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/conflict-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
-      <file name="forbidden-error.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/errors/forbidden-error.ts">
+      <file name="forbidden-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/forbidden-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
       </file>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/errors/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -238,82 +254,82 @@
         <line num="7" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
       </file>
-      <file name="invalid-data-error.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/errors/invalid-data-error.ts">
+      <file name="invalid-data-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/invalid-data-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="8" type="stmt"/>
       </file>
-      <file name="invalid-email-error.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/errors/invalid-email-error.ts">
+      <file name="invalid-email-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/invalid-email-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
-      <file name="not-found-error.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/errors/not-found-error.ts">
+      <file name="not-found-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/not-found-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="17" type="stmt"/>
+        <line num="4" count="20" type="stmt"/>
       </file>
-      <file name="request-error.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/errors/request-error.ts">
+      <file name="request-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/request-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
       </file>
-      <file name="unauthorized-error.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/errors/unauthorized-error.ts">
+      <file name="unauthorized-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/unauthorized-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="35" type="stmt"/>
+        <line num="4" count="38" type="stmt"/>
       </file>
     </package>
     <package name="src.middlewares">
-      <metrics statements="49" coveredstatements="42" conditionals="14" coveredconditionals="9" methods="8" coveredmethods="7"/>
-      <file name="authentication-middleware.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/middlewares/authentication-middleware.ts">
+      <metrics statements="49" coveredstatements="44" conditionals="14" coveredconditionals="9" methods="8" coveredmethods="7"/>
+      <file name="authentication-middleware.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/middlewares/authentication-middleware.ts">
         <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
-        <line num="9" count="77" type="stmt"/>
-        <line num="10" count="77" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="66" type="stmt"/>
-        <line num="13" count="66" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="66" type="stmt"/>
-        <line num="16" count="66" type="stmt"/>
-        <line num="18" count="55" type="stmt"/>
-        <line num="23" count="55" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="44" type="stmt"/>
-        <line num="27" count="44" type="stmt"/>
-        <line num="29" count="11" type="stmt"/>
-        <line num="34" count="33" type="stmt"/>
+        <line num="9" count="85" type="stmt"/>
+        <line num="10" count="85" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="73" type="stmt"/>
+        <line num="13" count="73" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="73" type="stmt"/>
+        <line num="16" count="73" type="stmt"/>
+        <line num="18" count="61" type="stmt"/>
+        <line num="23" count="61" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="49" type="stmt"/>
+        <line num="27" count="49" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="34" count="36" type="stmt"/>
       </file>
-      <file name="error-handling-middleware.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/middlewares/error-handling-middleware.ts">
-        <metrics statements="18" coveredstatements="12" conditionals="9" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="error-handling-middleware.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/middlewares/error-handling-middleware.ts">
+        <metrics statements="18" coveredstatements="14" conditionals="9" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
-        <line num="11" count="16" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="21" type="cond" truecount="0" falsecount="1"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="17" count="16" type="cond" truecount="2" falsecount="1"/>
+        <line num="17" count="21" type="cond" truecount="2" falsecount="1"/>
         <line num="18" count="0" type="stmt"/>
-        <line num="23" count="16" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="21" type="cond" truecount="0" falsecount="1"/>
         <line num="24" count="0" type="stmt"/>
-        <line num="29" count="16" type="cond" truecount="0" falsecount="1"/>
+        <line num="29" count="21" type="cond" truecount="0" falsecount="1"/>
         <line num="30" count="0" type="stmt"/>
-        <line num="35" count="16" type="cond" truecount="1" falsecount="0"/>
-        <line num="36" count="12" type="stmt"/>
-        <line num="41" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="15" type="stmt"/>
+        <line num="41" count="6" type="cond" truecount="1" falsecount="0"/>
         <line num="42" count="2" type="stmt"/>
-        <line num="47" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="48" count="2" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
+        <line num="47" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
       </file>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/middlewares/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/middlewares/index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
       </file>
-      <file name="validation-middleware.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/middlewares/validation-middleware.ts">
+      <file name="validation-middleware.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/middlewares/validation-middleware.ts">
         <metrics statements="11" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -330,7 +346,7 @@
     </package>
     <package name="src.repositories.address-repository">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/repositories/address-repository/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/repositories/address-repository/index.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="11" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
@@ -339,19 +355,20 @@
       </file>
     </package>
     <package name="src.repositories.booking-repository">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/repositories/booking-repository/index.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/repositories/booking-repository/index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="25" count="11" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="36" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.enrollment-repository">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/repositories/enrollment-repository/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/repositories/enrollment-repository/index.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="5" count="23" type="stmt"/>
@@ -363,7 +380,7 @@
     </package>
     <package name="src.repositories.event-repository">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/repositories/event-repository/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/repositories/event-repository/index.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -373,7 +390,7 @@
     </package>
     <package name="src.repositories.hotel-repository">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/repositories/hotel-repository/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/repositories/hotel-repository/index.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
@@ -384,7 +401,7 @@
     </package>
     <package name="src.repositories.payments-repository">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/repositories/payments-repository/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/repositories/payments-repository/index.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -394,7 +411,7 @@
     </package>
     <package name="src.repositories.session-repository">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/repositories/session-repository/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/repositories/session-repository/index.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="11" type="stmt"/>
         <line num="5" count="5" type="stmt"/>
@@ -404,7 +421,7 @@
     </package>
     <package name="src.repositories.tickets-repository">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/repositories/tickets-repository/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/repositories/tickets-repository/index.ts">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -419,7 +436,7 @@
     </package>
     <package name="src.repositories.user-repository">
       <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/repositories/user-repository/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/repositories/user-repository/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="2" count="11" type="stmt"/>
         <line num="5" count="16" type="stmt"/>
@@ -432,8 +449,8 @@
       </file>
     </package>
     <package name="src.routers">
-      <metrics statements="61" coveredstatements="61" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="authentication-router.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/routers/authentication-router.ts">
+      <metrics statements="62" coveredstatements="62" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="authentication-router.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/routers/authentication-router.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -443,8 +460,8 @@
         <line num="8" count="11" type="stmt"/>
         <line num="10" count="11" type="stmt"/>
       </file>
-      <file name="booking-router.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/routers/booking-router.ts">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="booking-router.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/routers/booking-router.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -452,9 +469,10 @@
         <line num="7" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
         <line num="9" count="11" type="stmt"/>
-        <line num="11" count="11" type="stmt"/>
+        <line num="10" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
       </file>
-      <file name="enrollments-router.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/routers/enrollments-router.ts">
+      <file name="enrollments-router.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/routers/enrollments-router.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -464,7 +482,7 @@
         <line num="8" count="11" type="stmt"/>
         <line num="14" count="11" type="stmt"/>
       </file>
-      <file name="events-router.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/routers/events-router.ts">
+      <file name="events-router.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/routers/events-router.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -472,7 +490,7 @@
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
       </file>
-      <file name="hotels-router.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/routers/hotels-router.ts">
+      <file name="hotels-router.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/routers/hotels-router.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -481,7 +499,7 @@
         <line num="7" count="11" type="stmt"/>
         <line num="9" count="11" type="stmt"/>
       </file>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/routers/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/routers/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -492,7 +510,7 @@
         <line num="7" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
       </file>
-      <file name="payments-router.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/routers/payments-router.ts">
+      <file name="payments-router.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/routers/payments-router.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -501,7 +519,7 @@
         <line num="7" count="11" type="stmt"/>
         <line num="9" count="11" type="stmt"/>
       </file>
-      <file name="tickets-router.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/routers/tickets-router.ts">
+      <file name="tickets-router.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/routers/tickets-router.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -511,7 +529,7 @@
         <line num="8" count="11" type="stmt"/>
         <line num="14" count="11" type="stmt"/>
       </file>
-      <file name="users-router.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/routers/users-router.ts">
+      <file name="users-router.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/routers/users-router.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -524,12 +542,12 @@
     </package>
     <package name="src.schemas">
       <metrics statements="28" coveredstatements="27" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="4"/>
-      <file name="authentication-schemas.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/schemas/authentication-schemas.ts">
+      <file name="authentication-schemas.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/schemas/authentication-schemas.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="14" type="stmt"/>
         <line num="4" count="14" type="stmt"/>
       </file>
-      <file name="enrollments-schemas.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/schemas/enrollments-schemas.ts">
+      <file name="enrollments-schemas.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/schemas/enrollments-schemas.ts">
         <metrics statements="19" coveredstatements="18" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="1" count="14" type="stmt"/>
         <line num="2" count="14" type="stmt"/>
@@ -551,31 +569,42 @@
         <line num="54" count="0" type="stmt"/>
         <line num="57" count="23" type="stmt"/>
       </file>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/schemas/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/schemas/index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="14" type="stmt"/>
         <line num="2" count="14" type="stmt"/>
         <line num="3" count="14" type="stmt"/>
       </file>
-      <file name="tickets-schemas.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/schemas/tickets-schemas.ts">
+      <file name="tickets-schemas.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/schemas/tickets-schemas.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
       </file>
-      <file name="users-schemas.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/schemas/users-schemas.ts">
+      <file name="users-schemas.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/schemas/users-schemas.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="14" type="stmt"/>
         <line num="4" count="14" type="stmt"/>
       </file>
     </package>
+    <package name="src.services">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/services/index.ts">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
     <package name="src.services.authentication-service">
       <metrics statements="24" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
-      <file name="errors.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/services/authentication-service/errors.ts">
+      <file name="errors.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/services/authentication-service/errors.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="6" type="stmt"/>
       </file>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/services/authentication-service/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/services/authentication-service/index.ts">
         <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -602,9 +631,9 @@
       </file>
     </package>
     <package name="src.services.booking-service">
-      <metrics statements="29" coveredstatements="29" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/services/booking-service/index.ts">
-        <metrics statements="29" coveredstatements="29" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
+      <metrics statements="37" coveredstatements="36" conditionals="14" coveredconditionals="13" methods="6" coveredmethods="6"/>
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/services/booking-service/index.ts">
+        <metrics statements="37" coveredstatements="36" conditionals="14" coveredconditionals="13" methods="6" coveredmethods="6"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -624,21 +653,29 @@
         <line num="29" count="4" type="stmt"/>
         <line num="33" count="4" type="cond" truecount="5" falsecount="0"/>
         <line num="34" count="1" type="stmt"/>
-        <line num="39" count="3" type="stmt"/>
-        <line num="40" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="40" count="5" type="cond" truecount="1" falsecount="0"/>
         <line num="41" count="1" type="stmt"/>
-        <line num="43" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="44" count="1" type="stmt"/>
+        <line num="43" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="44" count="2" type="stmt"/>
         <line num="49" count="6" type="stmt"/>
         <line num="50" count="3" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
         <line num="54" count="1" type="stmt"/>
-        <line num="56" count="11" type="stmt"/>
+        <line num="58" count="5" type="stmt"/>
+        <line num="59" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="62" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="71" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.enrollments-service">
       <metrics statements="28" coveredstatements="27" conditionals="9" coveredconditionals="8" methods="5" coveredmethods="5"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/services/enrollments-service/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/services/enrollments-service/index.ts">
         <metrics statements="28" coveredstatements="27" conditionals="9" coveredconditionals="8" methods="5" coveredmethods="5"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -672,7 +709,7 @@
     </package>
     <package name="src.services.events-service">
       <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/services/events-service/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/services/events-service/index.ts">
         <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -693,7 +730,7 @@
     </package>
     <package name="src.services.hotels-service">
       <metrics statements="22" coveredstatements="22" conditionals="12" coveredconditionals="12" methods="3" coveredmethods="3"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/services/hotels-service/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/services/hotels-service/index.ts">
         <metrics statements="22" coveredstatements="22" conditionals="12" coveredconditionals="12" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -721,7 +758,7 @@
     </package>
     <package name="src.services.payments-service">
       <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/services/payments-service/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/services/payments-service/index.ts">
         <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -747,7 +784,7 @@
     </package>
     <package name="src.services.tickets-service">
       <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/services/tickets-service/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/services/tickets-service/index.ts">
         <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -773,12 +810,12 @@
     </package>
     <package name="src.services.users-service">
       <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
-      <file name="errors.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/services/users-service/errors.ts">
+      <file name="errors.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/services/users-service/errors.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="4" type="stmt"/>
       </file>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/services/users-service/index.ts">
+      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/services/users-service/index.ts">
         <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -803,7 +840,7 @@
     </package>
     <package name="src.utils">
       <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="prisma-utils.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/utils/prisma-utils.ts">
+      <file name="prisma-utils.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/utils/prisma-utils.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="12" type="stmt"/>
@@ -811,7 +848,7 @@
         <line num="4" count="18" type="stmt"/>
         <line num="6" count="12" type="stmt"/>
       </file>
-      <file name="request.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/utils/request.ts">
+      <file name="request.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/utils/request.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
@@ -821,125 +858,6 @@
         <line num="9" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="15" count="11" type="stmt"/>
-      </file>
-    </package>
-    <package name="tests">
-      <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <file name="helpers.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/helpers.ts">
-        <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="9" count="70" type="stmt"/>
-        <line num="10" count="70" type="stmt"/>
-        <line num="11" count="70" type="stmt"/>
-        <line num="12" count="70" type="stmt"/>
-        <line num="13" count="70" type="stmt"/>
-        <line num="14" count="70" type="stmt"/>
-        <line num="15" count="70" type="stmt"/>
-        <line num="16" count="70" type="stmt"/>
-        <line num="17" count="70" type="stmt"/>
-        <line num="18" count="70" type="stmt"/>
-        <line num="19" count="70" type="stmt"/>
-        <line num="22" count="10" type="stmt"/>
-        <line num="23" count="44" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="44" type="stmt"/>
-        <line num="26" count="44" type="stmt"/>
-        <line num="28" count="44" type="stmt"/>
-      </file>
-    </package>
-    <package name="tests.factories">
-      <metrics statements="62" coveredstatements="62" conditionals="18" coveredconditionals="17" methods="15" coveredmethods="15"/>
-      <file name="booking-factory.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/booking-factory.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-      </file>
-      <file name="enrollments-factory.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/enrollments-factory.ts">
-        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="9" count="32" type="cond" truecount="1" falsecount="1"/>
-        <line num="11" count="32" type="stmt"/>
-        <line num="35" count="10" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-      </file>
-      <file name="events-factory.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/events-factory.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="6" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="4" type="stmt"/>
-      </file>
-      <file name="hotels-factory.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/hotels-factory.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="9" type="stmt"/>
-        <line num="14" count="10" type="stmt"/>
-        <line num="15" count="5" type="stmt"/>
-      </file>
-      <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/index.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-      </file>
-      <file name="payments-factory.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/payments-factory.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="12" type="stmt"/>
-        <line num="15" count="10" type="stmt"/>
-        <line num="16" count="6" type="stmt"/>
-        <line num="18" count="6" type="stmt"/>
-      </file>
-      <file name="sessions-factory.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/sessions-factory.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="44" type="stmt"/>
-        <line num="8" count="44" type="stmt"/>
-      </file>
-      <file name="tickets-factory.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/tickets-factory.ts">
-        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="14" type="stmt"/>
-        <line num="16" count="10" type="stmt"/>
-        <line num="17" count="21" type="stmt"/>
-        <line num="26" count="10" type="stmt"/>
-        <line num="27" count="5" type="stmt"/>
-        <line num="37" count="10" type="stmt"/>
-        <line num="38" count="11" type="stmt"/>
-      </file>
-      <file name="users-factory.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/users-factory.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-        <line num="1" count="10" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="6" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="110" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="110" type="stmt"/>
-        <line num="10" count="110" type="stmt"/>
       </file>
     </package>
   </project>

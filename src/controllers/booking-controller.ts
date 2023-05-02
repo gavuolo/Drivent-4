@@ -18,7 +18,7 @@ export async function postBooking(req: AuthenticatedRequest, res: Response, next
     const { roomId } = req.body
     try {
         const booking = await bookingService.createBooking(userId, roomId)
-        return res.status(httpStatus.OK).send(booking)
+        return res.status(httpStatus.OK).send({bookingId: booking})
     } catch (error) {
         next(error)
     }
@@ -31,7 +31,7 @@ export async function putBooking(req: AuthenticatedRequest, res: Response, next:
 
     try {
         const bookingUpdated = await bookingService.updateBooking(userId, roomId, bookingId)
-        return res.status(httpStatus.OK).send(bookingUpdated)
+        return res.status(httpStatus.OK).send({bookingId: bookingUpdated})
     } catch (error) {
         next(error)
     }
