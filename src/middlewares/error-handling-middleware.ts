@@ -44,7 +44,7 @@ export function handleApplicationErrors(
     });
   }
 
-  if (err.name === 'Forbidden') {
+  if (err.name === 'ForbiddenError') {
     return res.status(httpStatus.FORBIDDEN).send({
       message: err.message,
     });

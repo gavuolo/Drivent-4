@@ -16,18 +16,6 @@ async function findBookings(userId: number) {
    return response
 }
 
-async function createBooking(userId: number, roomId: number) {
-   //encontrar o quarto pelo id 
-   await checkRoom(roomId);
-   //encontrar ingresso e ticket
-   const ticket = await checkEnrollmentAndTicket(userId);
-   //verificar o ticket
-   await checkTicket(ticket)
-   //criar 
-   const booking = await bookingRepository.createBooking(userId, roomId)
-   return booking.id
-}
-
 async function checkEnrollmentAndTicket(userId: number){
    const enrollment = await enrollmentRepository.findWithAddressByUserId(userId)
    if(!enrollment) {
@@ -38,24 +26,32 @@ async function checkEnrollmentAndTicket(userId: number){
    if(!ticket) {
        throw notFoundError()
    }
-   return ticket
+   await checkTicket(ticket)
 }
 
 async function checkTicket(ticket: Ticket & {TicketType:TicketType}){
    if (!ticket || ticket.status === 'RESERVED' || ticket.TicketType.isRemote || !ticket.TicketType.includesHotel) {
+      console.log("ENTROU AQUI")
       throw forbiddenError()
   }
 }
 
-
 async function checkRoom(roomId: number){
    const room = await bookingRepository.findRoomById(roomId)
-   if (room.capacity === 0) {
-      throw forbiddenError()
-   }
    if (!room){
       throw notFoundError()
    }
+   if (room.capacity === 0) {
+      throw forbiddenError()
+   }
 }
 
+async function createBooking(userId: number, roomId: number) {
+   await checkEnrollmentAndTicket(userId);
+   await checkRoom(roomId);
+   
+   //criar 
+   const booking = await bookingRepository.createBooking(userId, roomId)
+   return booking.id
+}
 export default { findBookings, createBooking }
