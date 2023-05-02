@@ -37,7 +37,7 @@ async function checkTicket(ticket: Ticket & {TicketType:TicketType}){
 
 async function checkRoom(roomId: number){
    const room = await bookingRepository.findRoomById(roomId)
-   if (!room){
+   if (!room || room === null || room === undefined){
       throw notFoundError()
    }
    if (room.capacity === 0 || room.capacity < 1) {
@@ -55,7 +55,7 @@ async function createBooking(userId: number, roomId: number) {
 
 async function updateBooking(userId: number, roomId: number, bookingId: number){
    const booking = await bookingRepository.findBookingByUserId(userId)
-   if(!booking){
+   if(!booking || booking === null || booking === undefined){
       throw notFoundError()
    }
    await checkRoom(roomId)
