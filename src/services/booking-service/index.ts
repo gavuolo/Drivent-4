@@ -59,6 +59,8 @@ async function updateBooking(userId: number, roomId: number, bookingId: number){
       throw forbiddenError()
    }
 
+   await checkRoom(roomId)
+   
    const updated = await bookingRepository.updateBooking(roomId, bookingId)
   
    return updated.id
