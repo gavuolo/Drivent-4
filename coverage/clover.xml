@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682989213014" clover="3.2.0">
-  <project timestamp="1682989213015" name="All files">
-    <metrics statements="644" coveredstatements="625" conditionals="102" coveredconditionals="83" methods="112" coveredmethods="106" elements="858" coveredelements="814" complexity="0" loc="644" ncloc="644" packages="27" files="72" classes="72"/>
+<coverage generated="1682995060900" clover="3.2.0">
+  <project timestamp="1682995060900" name="All files">
+    <metrics statements="645" coveredstatements="625" conditionals="102" coveredconditionals="83" methods="112" coveredmethods="106" elements="859" coveredelements="814" complexity="0" loc="645" ncloc="645" packages="27" files="72" classes="72"/>
     <package name="src">
       <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="app.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/app.ts">
@@ -68,10 +68,10 @@
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="16" count="11" type="stmt"/>
         <line num="17" count="5" type="stmt"/>
@@ -273,16 +273,16 @@
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
-        <line num="9" count="76" type="stmt"/>
-        <line num="10" count="76" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="65" type="stmt"/>
-        <line num="13" count="65" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="65" type="stmt"/>
-        <line num="16" count="65" type="stmt"/>
-        <line num="18" count="54" type="stmt"/>
-        <line num="23" count="54" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="43" type="stmt"/>
-        <line num="27" count="43" type="stmt"/>
+        <line num="9" count="77" type="stmt"/>
+        <line num="10" count="77" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="66" type="stmt"/>
+        <line num="13" count="66" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="66" type="stmt"/>
+        <line num="16" count="66" type="stmt"/>
+        <line num="18" count="55" type="stmt"/>
+        <line num="23" count="55" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="44" type="stmt"/>
+        <line num="27" count="44" type="stmt"/>
         <line num="29" count="11" type="stmt"/>
         <line num="34" count="33" type="stmt"/>
       </file>
@@ -343,7 +343,7 @@
       <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/repositories/booking-repository/index.ts">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
         <line num="25" count="11" type="stmt"/>
@@ -602,18 +602,18 @@
       </file>
     </package>
     <package name="src.services.booking-service">
-      <metrics statements="30" coveredstatements="28" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
+      <metrics statements="31" coveredstatements="28" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
       <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/src/services/booking-service/index.ts">
-        <metrics statements="30" coveredstatements="28" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
+        <metrics statements="31" coveredstatements="28" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="10" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
         <line num="20" count="5" type="stmt"/>
         <line num="21" count="5" type="cond" truecount="1" falsecount="0"/>
         <line num="22" count="1" type="stmt"/>
@@ -634,7 +634,8 @@
         <line num="51" count="2" type="stmt"/>
         <line num="54" count="0" type="stmt"/>
         <line num="55" count="0" type="stmt"/>
-        <line num="57" count="11" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="58" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.enrollments-service">
@@ -833,22 +834,22 @@
         <line num="5" count="10" type="stmt"/>
         <line num="6" count="10" type="stmt"/>
         <line num="8" count="10" type="stmt"/>
-        <line num="9" count="69" type="stmt"/>
-        <line num="10" count="69" type="stmt"/>
-        <line num="11" count="69" type="stmt"/>
-        <line num="12" count="69" type="stmt"/>
-        <line num="13" count="69" type="stmt"/>
-        <line num="14" count="69" type="stmt"/>
-        <line num="15" count="69" type="stmt"/>
-        <line num="16" count="69" type="stmt"/>
-        <line num="17" count="69" type="stmt"/>
-        <line num="18" count="69" type="stmt"/>
-        <line num="19" count="69" type="stmt"/>
+        <line num="9" count="70" type="stmt"/>
+        <line num="10" count="70" type="stmt"/>
+        <line num="11" count="70" type="stmt"/>
+        <line num="12" count="70" type="stmt"/>
+        <line num="13" count="70" type="stmt"/>
+        <line num="14" count="70" type="stmt"/>
+        <line num="15" count="70" type="stmt"/>
+        <line num="16" count="70" type="stmt"/>
+        <line num="17" count="70" type="stmt"/>
+        <line num="18" count="70" type="stmt"/>
+        <line num="19" count="70" type="stmt"/>
         <line num="22" count="10" type="stmt"/>
-        <line num="23" count="43" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="43" type="stmt"/>
-        <line num="26" count="43" type="stmt"/>
-        <line num="28" count="43" type="stmt"/>
+        <line num="23" count="44" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="44" type="stmt"/>
+        <line num="26" count="44" type="stmt"/>
+        <line num="28" count="44" type="stmt"/>
       </file>
     </package>
     <package name="tests.factories">
@@ -858,7 +859,7 @@
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
@@ -869,8 +870,8 @@
         <line num="5" count="10" type="stmt"/>
         <line num="6" count="10" type="stmt"/>
         <line num="8" count="10" type="stmt"/>
-        <line num="9" count="31" type="cond" truecount="1" falsecount="1"/>
-        <line num="11" count="31" type="stmt"/>
+        <line num="9" count="32" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="32" type="stmt"/>
         <line num="35" count="10" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
       </file>
@@ -887,9 +888,9 @@
         <line num="1" count="10" type="stmt"/>
         <line num="2" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="6" count="8" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
         <line num="14" count="10" type="stmt"/>
-        <line num="15" count="4" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/index.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -906,7 +907,7 @@
         <line num="1" count="10" type="stmt"/>
         <line num="2" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
-        <line num="5" count="11" type="stmt"/>
+        <line num="5" count="12" type="stmt"/>
         <line num="15" count="10" type="stmt"/>
         <line num="16" count="6" type="stmt"/>
         <line num="18" count="6" type="stmt"/>
@@ -916,8 +917,8 @@
         <line num="2" count="10" type="stmt"/>
         <line num="3" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="6" count="43" type="stmt"/>
-        <line num="8" count="43" type="stmt"/>
+        <line num="6" count="44" type="stmt"/>
+        <line num="8" count="44" type="stmt"/>
       </file>
       <file name="tickets-factory.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/tickets-factory.ts">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
@@ -926,11 +927,11 @@
         <line num="5" count="10" type="stmt"/>
         <line num="6" count="14" type="stmt"/>
         <line num="16" count="10" type="stmt"/>
-        <line num="17" count="20" type="stmt"/>
+        <line num="17" count="21" type="stmt"/>
         <line num="26" count="10" type="stmt"/>
         <line num="27" count="5" type="stmt"/>
         <line num="37" count="10" type="stmt"/>
-        <line num="38" count="10" type="stmt"/>
+        <line num="38" count="11" type="stmt"/>
       </file>
       <file name="users-factory.ts" path="/home/gabriela/Documentos/Projetos/a/Drivent-4/tests/factories/users-factory.ts">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
@@ -938,9 +939,9 @@
         <line num="2" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
         <line num="6" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="108" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="108" type="stmt"/>
-        <line num="10" count="108" type="stmt"/>
+        <line num="7" count="110" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="110" type="stmt"/>
+        <line num="10" count="110" type="stmt"/>
       </file>
     </package>
   </project>

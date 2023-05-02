@@ -30,8 +30,7 @@ async function checkEnrollmentAndTicket(userId: number){
 }
 
 async function checkTicket(ticket: Ticket & {TicketType:TicketType}){
-   if (!ticket || ticket.status === 'RESERVED' || ticket.TicketType.isRemote || !ticket.TicketType.includesHotel) {
-      console.log("ENTROU AQUI")
+   if (!ticket || ticket.status === 'RESERVED' || ticket.TicketType.isRemote || !ticket.TicketType.includesHotel){
       throw forbiddenError()
   }
 }

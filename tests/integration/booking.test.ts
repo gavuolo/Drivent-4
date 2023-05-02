@@ -6,7 +6,7 @@ import { createEnrollmentWithAddress, createHotel, createPayment, createRoomWith
 import { cleanDb, generateValidToken } from '../helpers';
 import app, { init } from '@/app';
 import { TicketStatus } from '@prisma/client';
-import { checkBooking, createBooking, createRoomFull } from '../factories/booking-factory';
+import { createBooking, createRoomFull } from '../factories/booking-factory';
 
 beforeAll(async () => {
     await init();
@@ -85,14 +85,14 @@ describe('GET /booking', () => {
 
 describe('POST /booking', () => {
     it('should respond with status 401 if no token is given', async () => {
-        const response = await server.get('/booking');
+        const response = await server.post('/booking');
 
         expect(response.status).toBe(httpStatus.UNAUTHORIZED);
     });
 
     it('should respond with status 401 if given token is not valid', async () => {
         const token = faker.lorem.word();
-        const response = await server.get('/booking').set('Authorization', `Bearer ${token}`);
+        const response = await server.post('/booking').set('Authorization', `Bearer ${token}`);
         expect(response.status).toBe(httpStatus.UNAUTHORIZED);
     });
 
@@ -100,7 +100,7 @@ describe('POST /booking', () => {
         const userWithoutSession = await createUser();
         const token = jwt.sign({ userId: userWithoutSession.id }, process.env.JWT_SECRET);
 
-        const response = await server.get('/booking').set('Authorization', `Bearer ${token}`);
+        const response = await server.post('/booking').set('Authorization', `Bearer ${token}`);
 
         expect(response.status).toBe(httpStatus.UNAUTHORIZED);
     });
@@ -186,10 +186,15 @@ describe('POST /booking', () => {
 
             const hotel = await createHotel();
             const room = await createRoomWithHotelId(hotel.id)
+           
+            const body = {roomId: room.id}
             const booking = await createBooking(user.id, room.id)
-            const response = await server.get('/booking').set('Authorization', `Bearer ${token}`).send({roomId: room.id})
-
-            expect(response.status).toEqual(httpStatus.OK)
+            const response = await server.post('/booking').set('Authorization', `Bearer ${token}`).send(body)
+    
+            expect(response.status).toEqual(httpStatus.OK);
+            expect(response.body).toEqual({
+                bookingId: expect.any(Number),
+              });
         });
 
     });
