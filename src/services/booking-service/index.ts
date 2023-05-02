@@ -40,7 +40,7 @@ async function checkRoom(roomId: number){
    if (!room){
       throw notFoundError()
    }
-   if (room.capacity === 0) {
+   if (room.capacity === 0 || room.capacity < 1) {
       throw forbiddenError()
    }
 }
