@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683046373780" clover="3.2.0">
-  <project timestamp="1683046373780" name="All files">
+<coverage generated="1683050997114" clover="3.2.0">
+  <project timestamp="1683050997114" name="All files">
     <metrics statements="586" coveredstatements="561" conditionals="87" coveredconditionals="67" methods="100" coveredmethods="93" elements="773" coveredelements="721" complexity="0" loc="586" ncloc="586" packages="26" files="64" classes="64"/>
     <package name="src">
       <metrics statements="22" coveredstatements="16" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="2"/>
@@ -89,13 +89,13 @@
         <line num="21" count="1" type="stmt"/>
         <line num="23" count="5" type="stmt"/>
         <line num="27" count="11" type="stmt"/>
-        <line num="28" count="5" type="stmt"/>
-        <line num="29" count="5" type="stmt"/>
-        <line num="30" count="5" type="stmt"/>
-        <line num="32" count="5" type="stmt"/>
-        <line num="33" count="5" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
         <line num="34" count="1" type="stmt"/>
-        <line num="36" count="4" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
       </file>
       <file name="enrollments-controller.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/controllers/enrollments-controller.ts">
         <metrics statements="20" coveredstatements="19" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
@@ -241,7 +241,7 @@
       <file name="forbidden-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/forbidden-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -267,7 +267,7 @@
       <file name="not-found-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/not-found-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="20" type="stmt"/>
+        <line num="4" count="17" type="stmt"/>
       </file>
       <file name="request-error.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/errors/request-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -289,16 +289,16 @@
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
-        <line num="9" count="85" type="stmt"/>
-        <line num="10" count="85" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="73" type="stmt"/>
-        <line num="13" count="73" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="73" type="stmt"/>
-        <line num="16" count="73" type="stmt"/>
-        <line num="18" count="61" type="stmt"/>
-        <line num="23" count="61" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="49" type="stmt"/>
-        <line num="27" count="49" type="stmt"/>
+        <line num="9" count="83" type="stmt"/>
+        <line num="10" count="83" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="71" type="stmt"/>
+        <line num="13" count="71" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="71" type="stmt"/>
+        <line num="16" count="71" type="stmt"/>
+        <line num="18" count="59" type="stmt"/>
+        <line num="23" count="59" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="47" type="stmt"/>
+        <line num="27" count="47" type="stmt"/>
         <line num="29" count="12" type="stmt"/>
         <line num="34" count="36" type="stmt"/>
       </file>
@@ -306,20 +306,20 @@
         <metrics statements="18" coveredstatements="12" conditionals="9" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="2" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
-        <line num="11" count="20" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="18" type="cond" truecount="0" falsecount="1"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="17" count="20" type="cond" truecount="2" falsecount="1"/>
+        <line num="17" count="18" type="cond" truecount="2" falsecount="1"/>
         <line num="18" count="0" type="stmt"/>
-        <line num="23" count="20" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="18" type="cond" truecount="0" falsecount="1"/>
         <line num="24" count="0" type="stmt"/>
-        <line num="29" count="20" type="cond" truecount="0" falsecount="1"/>
+        <line num="29" count="18" type="cond" truecount="0" falsecount="1"/>
         <line num="30" count="0" type="stmt"/>
-        <line num="35" count="20" type="cond" truecount="1" falsecount="0"/>
-        <line num="36" count="15" type="stmt"/>
-        <line num="41" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="18" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="12" type="stmt"/>
+        <line num="41" count="6" type="cond" truecount="1" falsecount="0"/>
         <line num="42" count="2" type="stmt"/>
-        <line num="47" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="48" count="3" type="stmt"/>
+        <line num="47" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="48" count="4" type="stmt"/>
         <line num="53" count="0" type="stmt"/>
         <line num="54" count="0" type="stmt"/>
       </file>
@@ -359,7 +359,7 @@
       <file name="index.ts" path="/home/gabriela/Documentos/Projetos/Turma 09/Drivent-4/src/repositories/booking-repository/index.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="4" count="7" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="19" count="5" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
@@ -662,9 +662,9 @@
         <line num="50" count="3" type="stmt"/>
         <line num="52" count="1" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
-        <line num="57" count="5" type="stmt"/>
-        <line num="58" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="59" count="3" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="58" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
         <line num="61" count="2" type="stmt"/>
         <line num="62" count="1" type="stmt"/>
         <line num="64" count="1" type="stmt"/>
