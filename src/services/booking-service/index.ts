@@ -1,4 +1,4 @@
-import { notFoundError, forbiddenError } from "@/errors";
+import { notFoundError, forbiddenError, conflictError } from "@/errors";
 import bookingRepository from "@/repositories/booking-repository";
 import enrollmentRepository from "@/repositories/enrollment-repository";
 import ticketsRepository from "@/repositories/tickets-repository";
@@ -53,4 +53,19 @@ async function createBooking(userId: number, roomId: number) {
    const booking = await bookingRepository.createBooking(userId, roomId)
    return booking.id
 }
-export default { findBookings, createBooking }
+
+async function updateBooking(userId: number, roomId: number, bookingId: number){
+   const booking = await bookingRepository.findBookingByUserId(userId)
+   if(!booking){
+      throw notFoundError()
+   }
+   if(booking.userId !== userId){
+      throw conflictError("user not match with booking")
+   }
+   await checkRoom(roomId)
+
+   const updated = await bookingRepository.updateBooking(roomId, bookingId)
+  
+   return updated.id
+}
+export default { findBookings, createBooking, updateBooking }
